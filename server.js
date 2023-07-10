@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 	res.setHeader("Access-Control-Allow-Headers", "*");
 	next();
 });
-
+require('./model/index')
 const PORT = process.env.PORT || 9000
 app.listen(PORT, () => {
     console.log(`server is running ${PORT}`)
