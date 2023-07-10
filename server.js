@@ -1,7 +1,7 @@
 const express = require('express')
 const morgan = require('morgan')
 const bodyparser = require('body-parser')
-// const userController = require('./routes/productRoutes')
+const userController = require('./routes/routes')
 
 const app = express()
 // app.use(cors())
